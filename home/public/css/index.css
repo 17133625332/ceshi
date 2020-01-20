@@ -1,0 +1,391 @@
+*{
+  /* 干掉铜片的宽大padding margin  */
+  padding:px;
+  margin:px;
+  font-family: "微软雅黑";
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style:none;
+}
+.main{
+  width:98%;
+  margin:auto;  /*里面的所有内容全部居中居中*/
+
+}
+
+.header{
+  height: 50px;
+  /*
+  background-image:url('../images/logos.jpg');
+  background-repeat: no-repeat;
+  padding-left: 80px;
+    */
+  background-color:#Fddc9a;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headerlogo{
+  float:left;
+}
+.head_left{
+  float: left;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.head_right{
+  float:right;
+  line-height: 50px;
+}
+
+.head_right a{
+  color:#fff;
+  margin-left: 15px;
+}
+.head_right a:hover{
+  color:#888;
+}
+
+.nav{
+  height:5px;
+  background-color: pink;
+}
+.content{
+  /* height: 300px; */
+}
+.ads{
+  height:200px;
+}
+
+.footer{
+  height:50px;
+  background: #B3AE97;
+  text-align: center;
+  line-height: 50px;
+  /* color:red; */
+}
+
+.footer ul{
+  list-style:none;
+  padding-left:600px;
+
+}
+
+.footer ul li{
+  float: left;
+  margin-left: 35px;
+
+}
+
+.footer a{
+  /* color:#fff; */
+}
+
+.footer a:hover{
+  color:#ccc;
+}
+.floor{
+  margin-bottom: 20px;
+
+}
+.comment_floor{
+
+}
+
+.floor_header{
+  height: 30px;
+  background: #989BCE;
+  line-height: 30px;
+  color:#fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.floor_header a{
+  color:#fff;
+}
+.floor_header a:hover{
+  color:#ccd;
+}
+
+.floor_header_left{
+  float:left;
+}
+
+.floor_header_right{
+  float:right;
+}
+
+.floor_bottom{
+  height: 280px;
+  background: #eee;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+
+}
+
+.floor_bottom2{
+  background: #eee;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.floor_bottom2_comment{
+  padding-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background: red; */
+  height: 100px;
+  /* line-height: 100px; */
+}
+.floor_bottom2_comment_left{
+  float: left;
+  width:100px;
+  /* border-right: 5px solid; */
+  border-radius: 100px;
+  text-align: center;
+  background: #444;
+  padding-bottom: 15px;
+
+}
+
+/* .floor_bottom2_comment_left_logo{
+  padding-top: 5px;
+} */
+
+
+.floor_bottom2_comment_left_name{
+  margin-top: 10px;
+
+}
+
+}
+
+.floor_bottom2_comment_left_logo{
+  /* padding-top: 25px; */
+
+}
+
+.floor_bottom2_comment_right{
+  float:right;
+  border-radius: 5px;
+  /* width:1168px; */
+  height: 100%;
+  width:1400px;
+  padding-left:15px;
+
+}
+
+
+/* 清除浮动 */
+.clear{
+  clear:both;
+}
+
+.floor_bottom2 .shop{
+  margin-bottom: 30px;
+}
+
+.shop{
+  padding-top: 5px;
+  width:200px;
+  height: 235px;
+  /* background: #00f; */
+  float: left;
+  margin-top: 5px;
+  margin-left: 100px;
+  border:5px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #ccc;
+}
+
+.shopInfo{
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+.shopPrice{
+  float:right;
+}
+
+
+/* 购物车css代码 */
+
+.car_del{
+  background: #e4393c;
+  color:#fff;
+  border-radius: 5px;
+  padding:8px;
+
+}
+
+.car_del:hover{
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.car_num{
+  font-size: 30px;
+  background: red;
+  border-radius: 33px;
+  width:30px;
+  height:50px;
+  /* display: block; */
+}
+
+.touch tr{
+  height:50px;
+}
+
+.touch tr td{
+  border-top: 1px dashed #ccc;
+}
+
+/* 个人中心orderlist.php */
+.floor_bottom3{
+  width:100%;
+  /* height: 500px; */
+}
+.floor_bottom3_left{
+  width:12%;
+  height: 100%;
+  border:1px dashed #888;
+  float: left;
+}
+.floor_bottom3_right{
+  width: 87%;
+  /* height: 500px; */
+  border:1px dashed #888;
+  float:right;
+  text-align: center;
+}
+.floor_bottom3_right table{
+  /* height: 500px; */
+}
+.floor_bottom3_right tr{
+  height: 55px;
+}
+.floor_bottom3_left_ul{
+  margin-top: 25px;
+  padding-left:25px;
+}
+.floor_bottom3_left_ul li{
+  margin-top: 10px;
+}
+
+.floor_bottom3_left_ul li a{
+  color:#000;
+}
+
+.floor_bottom3_left_ul li a:hover{
+  color:#888;
+}
+
+/* 个人中心index.php */
+.floor_bottom3_right_background{
+  height:200px;
+  width:100%;
+  background:pink;
+}
+.index_clear{
+  clear: both;
+}
+
+/* useradd.php */
+.floor_bottom4_right{
+  background: yellow;
+  float: right;
+  width:87%;
+}
+.floor_bottom4_right_img{
+  width: 60%;
+  height: 100%;
+  float: left;
+  background:  green;
+  text-align: right;
+}
+.floor_bottom4_right_content{
+  background: pink;
+  padding-right: 11%;
+  padding-left: 10%;
+  float: right;
+}
+
+.floor_bottom4_right input[type = text]{
+  width:250px;
+}
+.useradd_clear{
+  clear: both;
+}
+
+/* userlist.php */
+.userlist_clear{
+  clear:both;
+}
+
+.floor_bottom5_right table{
+  width: 87%;
+  height: 500px;
+  float:right;
+}
+.floor_bottom5_right table tr{
+  height: 55px;
+  text-align: center;
+}
+
+
+/* login.php */
+.login_content{
+  width:100%;
+  height:655px;
+  background:#FBEEE7;
+}
+.login_left{
+
+  background: url("http://bpic.588ku.com/back_pic/19/03/19/73cb4b424729fd705d0e2a697d135f3b.jpg");
+  height: 655px;
+  margin-left:10%;
+  width: 55%;
+  float: left;
+}
+
+.login_main{
+  height: 700px;
+}
+.login_right{
+  float: right;
+  height: 665px;
+  padding-right: 100px;
+}
+.login_form{
+  /* text-align: center; */
+  /* margin-top: 20px; */
+}
+.login_form input[name]{
+  width:200px;
+  height:28px;
+  font-size: 20px;
+  border-radius: 5px;
+  shadow:#111;
+  padding-left: 15px;
+}
+.login_form input[type = submit]{
+  width:215px;
+  height: 50px;
+  background: #62A9D9;
+  border-radius: 15px;
+  border: none;
+  margin-top:30px;
+  box-shadow: 0px 0px 2px 2px #888;
+}
+
+.login_form p{
+  line-height: 18px;
+}

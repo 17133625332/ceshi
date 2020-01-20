@@ -1,0 +1,46 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: "微软雅黑";
+}
+
+a{
+  text-decoration:none;
+   background: #E4393C;
+   color: #fff;
+   border-radius: 5px;
+   padding:2px;
+}
+.main{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+
+}
+
+.main table{
+  width:98%;
+  border:1px dashed;
+
+}
+.main table tr{
+
+}
+.main table td{
+  height : 35px;
+  text-align: center;
+
+}
+
+.main .form{
+
+  width: 300px;
+  border: 1px solid red;
+  padding-left: 15px;
+  padding-top:20px;
+  margin-left: 20px;
+}
+
+.main form p{
+  line-height: 35px;
+}
